@@ -1,0 +1,11 @@
+framework module NVIOSSDK {
+  umbrella header "NVIOSSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module NVIOSSDK.Swift {
+    header "NVIOSSDK-Swift.h"
+    requires objc
+}
