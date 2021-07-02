@@ -37,30 +37,3 @@ Pod::Spec.new do |spec|
 
 end
 
-
-
-Pod::Spec.new do |spec|
-
-  spec.name         = "SourabhNVIOSSDKLibrary"
-  spec.version      = "0.0.2"
-  spec.summary      = "A Awesome  short description of SourabhNVIOSSDKLibrary."
-
-  spec.description  = <<-DESC
-  A Awesome  short description of SourabhNVIOSSDKLibrary. A Awesome  short description of SourabhNVIOSSDKLibrary.
-                   DESC
-
-  spec.homepage     = "http://EXAMPLE/SourabhNVIOSSDKLibrary"
-
-  spec.license      = { :type => "MIT", :file => "license" }
-  spec.author             = { "SourabhGajbhiye" => "sourabh.gajbhiye@innoeye.com" }
-
-  spec.source       = { :git => "https://github.com/sourabhgajbhiyeinnoeye/SourabhNVIOSSDKLibrary", :tag => "#{spec.version}" }
-
-  # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
-  spec.ios.deployment_target = '12.0'
-  spec.ios.vendored_frameworks = 'NVIOSSDK.framework'
-  spec.dependency 'RealmSwift', '~> 10.7.6'
-
-
-end
